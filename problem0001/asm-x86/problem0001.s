@@ -18,12 +18,12 @@ start_loop:
 	xor %edx, %edx          # Clear EDX
 	movl %ecx, %eax         # Copy counter to EAX
 # div divides %edx:%eax by %esi, the quotient goes in %eax and the remainder in %edx
-	div %esi                # Divide by ESI (3) 
+	divl %esi               # Divide by ESI (3) 
 	cmpl $0, %edx           # Check remainder
 	je valid                # When zero this is valid.
 	xor %edx, %edx          # Clear EDX
 	movl %ecx, %eax         # Copy counter to EAX
-	div %edi                # Devicde by EBI (5)
+	divl %edi               # Devide by EBI (5)
 	cmpl $0, %edx           # Check remaind
 	jne not_valid           # When zero goto valid, else goto not valid
 valid:
