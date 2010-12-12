@@ -11,4 +11,5 @@ fibo = 1 : 2 : zipWith (+) fibo (tail fibo)
 
 -- Get the sum of all even value not exceeding 4 million.
 prob2 :: Integer
-prob2 = sum (filter (even) (takeWhile (<4000000) fibo))
+prob2 = sum (filter even (takeWhile (<4000000) fibo))
+
