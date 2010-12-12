@@ -1,10 +1,10 @@
-#include <stdio.h>
 /**
  * Problem: http://projecteuler.net/index.php?section=problems&id=1
  * Author: Elie De Brauwer <elie @ de-brauwer.be>
  * License: Simplified BSD
  * Date: December 11, 2010
  */
+#include <iostream>
 
 int main()
 {
@@ -16,6 +16,6 @@ int main()
             total += i;
         }
     }
-    printf("Total: %d\n", total);
+    std::cout << "Total " << total << std::endl;
     return 0;
 }
