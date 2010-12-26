@@ -13,3 +13,4 @@ fibo = 1 : 2 : zipWith (+) fibo (tail fibo)
 prob2 :: Integer
 prob2 = sum (filter even (takeWhile (<4000000) fibo))
 
+main = print prob2
