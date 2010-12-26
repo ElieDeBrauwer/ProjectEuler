@@ -12,3 +12,5 @@ isPalindrome x = (show x) == (reverse $ show x)
 
 problem0004 :: Integer
 problem0004 = maximum [x*y | x <- [1..999], y <- [1..999], isPalindrome(x*y)]
+
+main = print problem0004
