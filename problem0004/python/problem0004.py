@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-Problem: http://projecteuler.net/index.php?section=problems&id=3
+Problem: http://projecteuler.net/index.php?section=problems&id=4
 Author: Elie De Brauwer <elie @ de-brauwer.be>
 License: Simplified BSD
 Date: December 24, 2010
