@@ -1,3 +1,7 @@
+Problem: http://projecteuler.net/index.php?section=problems&id=5
+Elie De Brauwer - December 25, 2010
+
+
 You need a value which can be divided by [1..20]. Which implies it should at 
 minimum consist out of the product of all primes larger than 20. Meaning 
 
@@ -13,4 +17,4 @@ these together gives us the solution.
 
 Q.E.D.
 
-Elie De Brauwer - December 25, 2010
+
