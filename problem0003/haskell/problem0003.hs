@@ -12,3 +12,5 @@ factor n a = if (a `mod` n == 0) then n : factor n (a `div` n) else factor (n+1)
 
 problem0003 :: [Integer]
 problem0003 = factor 2 600851475143
+
+main = print problem0003
