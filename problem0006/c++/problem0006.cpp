@@ -12,9 +12,9 @@
  * @param max Upper boundary, inclusive.
  * @return The sum of the natural numbers squared in O(1).
  */
-unsigned int squareOfSum(unsigned int max)
+static unsigned int squareOfSum(unsigned int max)
 {
-    int sum = max * (max + 1) / 2;
+    unsigned int sum = max * (max + 1) / 2;
     return sum*sum;
 }
 
@@ -23,7 +23,7 @@ unsigned int squareOfSum(unsigned int max)
  * @param max Upper boundary, inclusieve
  * @return The sum of all squares <= than max*max
  */
-unsigned int sumOfSquares(unsigned int max)
+static unsigned int sumOfSquares(unsigned int max)
 {
     return max * (max + 1) * (2 * max + 1) / 6;
 }
