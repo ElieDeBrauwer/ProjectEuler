@@ -1,5 +1,5 @@
 {-
-Problem: http://projecteuler.net/index.php?section=problems&id=4
+Problem: http://projecteuler.net/index.php?section=problems&id=5
 Author: Elie De Brauwer <elie @ de-brauwer.be>
 License: Simplified BSD
 Date: December 26, 2010
