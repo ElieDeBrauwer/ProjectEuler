@@ -1,3 +1,10 @@
+/**
+ * Problem: http://projecteuler.net/index.php?section=problems&id=6
+ * Author: Elie De Brauwer <elie @ de-brauwer.be>
+ * License: Simplified BSD
+ * Date: January 21, 2011
+ */
+
 #include <assert.h>
 #include <stdio.h>
 
