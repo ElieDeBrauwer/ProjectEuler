@@ -1,0 +1,8 @@
+[package]
+name = "euler808"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+miller_rabin = "1.1.1"
+primes = "0.4.0"
